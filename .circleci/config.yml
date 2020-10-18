@@ -24,4 +24,4 @@ jobs:
             docker tag dockerapp_dockerapp $DOCKER_HUB_USER_ID/dockerpyapp:$CIRCLE_SHA1
             docker tag dockerapp_dockerapp $DOCKER_HUB_USER_ID/dockerpyapp:latest
             docker push $DOCKER_HUB_USER_ID/dockerpyapp:$CIRCLE_SHA1
-            docker push $DOCKER_HUB_USER_ID/dockerpyapp:$latest
+            docker push $DOCKER_HUB_USER_ID/dockerpyapp:latest
